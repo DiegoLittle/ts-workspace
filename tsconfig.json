@@ -1,13 +1,19 @@
 {
   "compilerOptions": {
+    
     "outDir": "dist",
     "esModuleInterop": true,
-    "target": "ES2021",
+    "target": "ES2022",
+    "module": "Node16",
     "moduleResolution": "Node",
-    "module": "NodeNext",
+    "rootDir": ".",
     "lib":["ESNext","DOM"],
     "incremental": true,
     "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "sourceMap": true
   },
+  "include": ["src/**/*", "__tests__/**/*","index.ts"],
   "exclude": ["node_modules", "dist"]
 }
