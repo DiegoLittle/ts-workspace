@@ -6,7 +6,8 @@
     "moduleResolution": "Node",
     "module": "NodeNext",
     "lib":["ESNext","DOM"],
-    "incremental": true
+    "incremental": true,
+    "declaration": true,
   },
-  "exclude": ["node_modules", "out"]
+  "exclude": ["node_modules", "dist"]
 }
